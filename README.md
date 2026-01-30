@@ -1,5 +1,13 @@
 # Ash’s OBJ Viewer
 
+
+<img src="docs/turntable.gif" alt="Turntable demo">
+
+<img src="docs/turntable.gif" width="600">
+
+![Turntable render](docs/turntable.gif)
+
+
 Because sometimes you just want a rotating product shot from an `.obj` without starting a Blender pilgrimage, learning seven hotkeys for “orbit”, and accidentally becoming a 3D monk.
 
 This is a **local-only** OBJ viewer + **turntable renderer** built with PyQt5 + pyqtgraph.opengl.  
