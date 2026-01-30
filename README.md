@@ -54,16 +54,6 @@ Important detail: renders are framebuffer grabs, so the background colour also a
 
 ---
 
-## Screenshots / Demo
-
-Add your screenshots here (recommended, because GitHub without pictures is just a README doing unpaid labour).
-
-- docs/screenshot_main.png
-- docs/render_preview.png
-- docs/turntable.gif
-
----
-
 ## Installation
 
 ### Option 1: Windows EXE (Recommended if you hate Python setup)
@@ -92,6 +82,8 @@ Dependencies:
 
 Install command (paste into your terminal):
 python -m pip install PyQt5 pyqtgraph PyOpenGL numpy trimesh imageio imageio-ffmpeg Pillow
+
+Or you can install via the requirements.txt file
 
 Run:
 python main.py
