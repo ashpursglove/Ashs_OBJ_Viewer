@@ -76,12 +76,15 @@ Dependencies:
 - imageio-ffmpeg
 - Pillow
 
-Install command (paste into your terminal):
+#### Install FFmpeg to your PATH
+
+#### Install the requirements.txt file  
+python -m pip install -r requirements.txt
+
+#### Or install them separately  
 python -m pip install PyQt5 pyqtgraph PyOpenGL numpy trimesh imageio imageio-ffmpeg Pillow
 
-Or you can install via the requirements.txt file
-
-Run:
+#### Run:  
 python main.py
 
 ---
@@ -106,33 +109,48 @@ GIF export may still work, but MP4 absolutely will not.
 
 ## Controls Overview
 
+<img width="1555" height="933" alt="image" src="https://github.com/user-attachments/assets/e31b154e-b7b3-43f1-8a91-787f41c8fd98" />
+
+
 ### View
+<img width="662" height="188" alt="image" src="https://github.com/user-attachments/assets/86ab6d5e-ff98-4b2e-b9a5-a7cbe6060b1e" />
+
 - Show grid
 - Show axis
 - Pick background colour
 
 ### Model + Output
+<img width="673" height="286" alt="image" src="https://github.com/user-attachments/assets/40279eb5-7994-450e-9055-29c211118b0e" />
+
 - Load OBJ
 - Choose MP4 output path
 - Also export GIF
 - Render clean (disable edges for export)
 
 ### Camera (Preview + Render)
+<img width="675" height="327" alt="image" src="https://github.com/user-attachments/assets/8aa5ac68-f470-4fd9-a07d-e2d6070e7c9c" />
+
 - Azimuth / Elevation / Distance
 - Center (x,y,z)
 - Fit camera to model
 
 ### Materials / Colours
+<img width="675" height="177" alt="image" src="https://github.com/user-attachments/assets/af7c47dd-5c1e-4ce3-9f8f-5cd9994022b8" />
+
 - Pick model face colour
 - Pick light colour (tint)
 
 ### Lighting
+<img width="673" height="395" alt="image" src="https://github.com/user-attachments/assets/9a57bce6-8e96-49fc-a99d-97db4efc6e27" />
+
 - Mode: Headlight or Fixed
 - Light azimuth / elevation / distance (fixed mode)
 - Copy camera → light
 - Brightness + Diffuse sliders
 
 ### Display / Shading
+<img width="677" height="272" alt="image" src="https://github.com/user-attachments/assets/66308b6a-3ef2-4b3e-8e35-df0cf671a13b" />
+
 - Show faces
 - Show edges
 - Wireframe-only toggle
@@ -141,6 +159,8 @@ GIF export may still work, but MP4 absolutely will not.
 - Edge alpha slider
 
 ### Turntable Render
+<img width="682" height="377" alt="image" src="https://github.com/user-attachments/assets/1b05796d-b4a0-413b-88f0-e594e439a9db" />
+
 - Rotate axis
 - Total degrees
 - Seconds
@@ -171,7 +191,7 @@ GIF export may still work, but MP4 absolutely will not.
 
 ## Roadmap
 
-If you want to extend it, obvious next sins include:
+May be exended at some point, obvious next sins include:
 - Drag/drop OBJ loading
 - Remember last used folders + settings
 - Export PNG sequence
@@ -182,4 +202,5 @@ If you want to extend it, obvious next sins include:
 ## License
 
 MIT.  
-Let it roam free.
+Let it roam free.  
+Dont blame me when it crashes!
