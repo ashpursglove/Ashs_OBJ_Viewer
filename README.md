@@ -188,7 +188,7 @@ GIF export may still work, but MP4 absolutely will not.
 
 ## Roadmap
 
-If you want to extend it, obvious next sins include:
+May be exended at some point, obvious next sins include:
 - Drag/drop OBJ loading
 - Remember last used folders + settings
 - Export PNG sequence
@@ -200,3 +200,4 @@ If you want to extend it, obvious next sins include:
 
 MIT.  
 Let it roam free.
+Dont blame me when ut crashes!
