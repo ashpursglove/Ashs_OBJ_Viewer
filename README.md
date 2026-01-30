@@ -76,9 +76,9 @@ Dependencies:
 - imageio-ffmpeg
 - Pillow
 
-Install FFmpeg to your PATH
+#### Install FFmpeg to your PATH
 
-Install command (paste into your terminal):
+Install command (paste into your terminal):  
 python -m pip install PyQt5 pyqtgraph PyOpenGL numpy trimesh imageio imageio-ffmpeg Pillow
 
 Or you can install via the requirements.txt file
