@@ -2,8 +2,10 @@
 
 Because sometimes you just want a rotating product shot from an `.obj` without starting a Blender pilgrimage, learning seven hotkeys for “orbit”, and accidentally becoming a 3D monk.
 
-This is a local-only OBJ viewer + turntable renderer built with PyQt5 + pyqtgraph.opengl.  
+This is a **local-only** OBJ viewer + **turntable renderer** built with PyQt5 + pyqtgraph.opengl.  
 Dark navy + orange theme included, because grey UI is how joy dies.
+
+There is also a **Windows EXE release** for people who would rather double-click than negotiate with Python.
 
 ---
 
@@ -33,7 +35,7 @@ Pick the viewport background colour.
 Important detail: renders are framebuffer grabs, so the background colour also affects your exported MP4/GIF. No magic, no post-processing, just the raw truth.
 
 ### Turntable Render Export
-- Render turntables to MP4 (H.264) via imageio-ffmpeg
+- Render turntables to MP4 (H.264)
 - Optionally export a GIF too
 - Control:
   - Axis (x, y, z)
@@ -55,9 +57,23 @@ Add your screenshots here (recommended, because GitHub without pictures is just 
 
 ---
 
-## Dependencies
+## Installation
 
-Install:
+### Option 1: Windows EXE (Recommended if you hate Python setup)
+
+Download the latest EXE from the **Releases** page.
+
+No Python required.  
+No virtual environments.  
+No spiritual growth.
+
+Important: you will still need **FFmpeg installed separately** for MP4 export to work. See the FFmpeg section below.
+
+---
+
+### Option 2: Run from Source
+
+Dependencies:
 - PyQt5
 - pyqtgraph
 - PyOpenGL
@@ -70,12 +86,26 @@ Install:
 Install command (paste into your terminal):
 python -m pip install PyQt5 pyqtgraph PyOpenGL numpy trimesh imageio imageio-ffmpeg Pillow
 
+Run:
+python main.py
+
 ---
 
-## Run It
+## FFmpeg (Required for MP4 Export)
 
-Command:
-python main.py
+MP4 rendering relies on FFmpeg.  
+Even if you’re using the EXE, **FFmpeg must be installed separately and available on your PATH**.
+
+If FFmpeg is missing:
+- The app will still run
+- Preview will still work
+- MP4 export will quietly fail or complain in its own special way
+
+Solution:
+- Install FFmpeg
+- Make sure `ffmpeg` is accessible from the command line
+
+GIF export may still work, but MP4 absolutely will not.
 
 ---
 
@@ -103,7 +133,7 @@ python main.py
 
 ### Lighting
 - Mode: Headlight or Fixed
-- Light azimuth/elevation/distance (fixed mode)
+- Light azimuth / elevation / distance (fixed mode)
 - Copy camera → light
 - Brightness + Diffuse sliders
 
@@ -140,7 +170,7 @@ python main.py
 
 - Some OBJs load as scenes with multiple geometries. This tool concatenates what it can via trimesh.
 - If your OBJ is huge, it gets normalised to a sane size for camera + turntable.
-- If imageio-ffmpeg isn’t installed properly, MP4 export will sulk.
+- If FFmpeg isn’t installed correctly, MP4 export will sulk.
 
 ---
 
@@ -150,12 +180,11 @@ If you want to extend it, obvious next sins include:
 - Drag/drop OBJ loading
 - Remember last used folders + settings
 - Export PNG sequence
-- Basic material/texture support (if I want to get into self harm)
+- Basic material / texture support (if I want to get into self harm)
 
 ---
 
 ## License
 
-Pick one:
-- MIT, Let it roam free!
-
+MIT.  
+Let it roam free.
