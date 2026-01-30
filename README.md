@@ -199,5 +199,5 @@ May be exended at some point, obvious next sins include:
 ## License
 
 MIT.  
-Let it roam free.
-Dont blame me when ut crashes!
+Let it roam free.  
+Dont blame me when it crashes!
