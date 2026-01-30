@@ -98,9 +98,9 @@ If FFmpeg is missing:
 - The app will still run
 - Preview will still work
 - MP4 export will quietly fail or complain in its own special way
-## GIF export may still work, but MP4 absolutely will not.
+### GIF export may still work, but MP4 absolutely will not.
 
-Solution:
+## Solution:
 - Install FFmpeg, you can download the full build from [**here**](https://www.gyan.dev/ffmpeg/builds/)
 - Once you have the full build extracted, pop it somewhere permanent and put the path to the bin file in there in your PATH (via Win + R, sysdm.cpl → Advanced → Environment Variables, you can pop it in user or system, up to you)
 - Make sure `ffmpeg` is accessible from the command line by just typing ffmpeg. If it doesnt lose its mind than it's in your PATH and working.
