@@ -54,7 +54,7 @@ Important detail: renders are framebuffer grabs, so the background colour also a
 
 ### Option 1: Windows EXE (Recommended if you hate Python setup)
 
-Download the latest EXE from the [**Releases**](https://github.com/ashpursglove/Ashs_OBJ_Viewer/releases/tag/v1.0.1) page.
+Download the latest EXE from the [**Releases**](https://github.com/ashpursglove/Ashs_OBJ_Viewer/releases) page.
 
 No Python required.  
 No virtual environments.  
