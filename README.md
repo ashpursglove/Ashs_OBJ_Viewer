@@ -1,4 +1,4 @@
-# Ash’s OBJ Viewer (PyQt5)
+# Ash’s OBJ Viewer
 
 Because sometimes you just want a rotating product shot from an `.obj` without starting a Blender pilgrimage, learning seven hotkeys for “orbit”, and accidentally becoming a 3D monk.
 
