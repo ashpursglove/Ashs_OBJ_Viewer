@@ -45,7 +45,7 @@ Important detail: renders are framebuffer grabs, so the background colour also a
   - Total degrees (default 360)
   - Seconds
   - FPS
-- Preview 1 frame button so you don’t render 300 frames of regret
+- Preview 1 frame button so you don’t render 3000 frames of regret
 - Render clean option: disables edges during export only (preview can stay wireframed like a CAD goblin)
 
 ---
@@ -54,7 +54,7 @@ Important detail: renders are framebuffer grabs, so the background colour also a
 
 ### Option 1: Windows EXE (Recommended if you hate Python setup)
 
-Download the latest EXE from the **Releases** page.
+Download the latest EXE from the [**Releases**](https://github.com/ashpursglove/Ashs_OBJ_Viewer/releases/tag/v1.0.1) page.
 
 No Python required.  
 No virtual environments.  
