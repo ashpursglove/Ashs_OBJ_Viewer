@@ -102,7 +102,10 @@ If FFmpeg is missing:
 
 ## Solution:
 - Install FFmpeg, you can download the full build from [**here**](https://www.gyan.dev/ffmpeg/builds/)
-- Once you have the full build extracted, pop it somewhere permanent and copy the path to the bin file (containing "ffmpeg", "ffplay" and "ffprobe") into your PATH (via Win + R, sysdm.cpl → Advanced → Environment Variables, you can pop it in user or system, up to you)
+- Once you have the full build extracted, pop it somewhere permanent and copy the path to the bin file (containing "ffmpeg", "ffplay" and "ffprobe") into your PATH (via Win + R, sysdm.cpl → Advanced → Environment Variables, you can pop it in user or system, up to you).
+- Will look something like this in your list of PATH variables.
+  <img width="387" height="26" alt="image" src="https://github.com/user-attachments/assets/adc5a21e-3177-409c-8ddf-ed77502b532d" />
+
 - Make sure "ffmpeg" is accessible from the command line by just typing ffmpeg. If it doesnt lose its mind then it's in your PATH and working.
 ---
 
