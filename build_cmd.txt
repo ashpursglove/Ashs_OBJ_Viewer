@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "Ashobj" --icon pepeico.ico main.py
