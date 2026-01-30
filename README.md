@@ -84,10 +84,7 @@ python -m pip install -r requirements.txt
 #### Or install them separately  
 python -m pip install PyQt5 pyqtgraph PyOpenGL numpy trimesh imageio imageio-ffmpeg Pillow
 
-
-
-
-Run:
+#### Run:  
 python main.py
 
 ---
