@@ -106,7 +106,7 @@ If FFmpeg is missing:
 - Will look something like this in your list of PATH variables.
   <img width="387" height="26" alt="image" src="https://github.com/user-attachments/assets/adc5a21e-3177-409c-8ddf-ed77502b532d" />
 
-- Make sure "ffmpeg" is accessible from the command line by just typing ffmpeg. If it doesnt lose its mind then it's in your PATH and working.
+- Make sure "ffmpeg" is accessible from the command line by just typing ffmpeg. If it doesn't lose its mind then it's in your PATH and working.
 ---
 
 ## Controls Overview
