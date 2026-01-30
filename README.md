@@ -1,4 +1,8 @@
 # Ash’s OBJ Viewer
+
+
+<img src="docs/turntable.gif" alt="Turntable demo">
+
 <img src="docs/turntable.gif" width="600">
 
 ![Turntable render](docs/turntable.gif)
