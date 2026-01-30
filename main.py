@@ -1370,7 +1370,14 @@ class TurntableWindow(QtWidgets.QMainWindow):
                 self.apply_display_settings()
 
         if settings.out_gif and gif_frames:
-            imageio.mimsave(settings.out_gif, gif_frames, fps=settings.fps)
+            imageio.mimsave(
+                settings.out_gif,
+                gif_frames,
+                fps=settings.fps,
+                loop=0,
+            )
+
+            # imageio.mimsave(settings.out_gif, gif_frames, fps=settings.fps)
 
         QtWidgets.QMessageBox.information(
             self,
