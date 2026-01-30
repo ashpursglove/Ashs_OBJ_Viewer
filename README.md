@@ -100,7 +100,8 @@ If FFmpeg is missing:
 - MP4 export will quietly fail or complain in its own special way
 
 Solution:
-- Install FFmpeg
+- Install FFmpeg, you can download the full build from here [**here**](https://www.gyan.dev/ffmpeg/builds/)
+- once you have the full build, pop it somewhere permanent and put the path to the bin file in there in your PATH (via sysdm.cpl → Advanced → Environment Variables)
 - Make sure `ffmpeg` is accessible from the command line
 
 GIF export may still work, but MP4 absolutely will not.
